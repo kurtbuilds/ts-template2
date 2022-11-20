@@ -11,7 +11,8 @@
     "noEmit": true,
     "jsx": "react-jsx",
     "paths": {
-      "lib": ["@kurtbuilds/lib"]
+      "@": ["./"],
+      "@/*": ["./*"]
     },
     "allowSyntheticDefaultImports": true
   },

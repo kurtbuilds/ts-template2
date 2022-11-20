@@ -2,7 +2,8 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import './App.css'
 import {classNames} from "@kurtbuilds/lib"
-import {Loading} from "@kurtbuilds/lib/loading"
+import {Loading} from "@kurtbuilds/lib/component/loading"
+import {Alerts} from "@kurtbuilds/lib/component/alert"
 
 function App() {
   const [count, setCount] = useState(0)
@@ -10,6 +11,7 @@ function App() {
   return (
     <div className={classNames("App", "red")}>
         <Loading/>
+        <Alerts alerts={[{message: "hello", type: "danger"}]}/>
       <div>
         <a href="https://vitejs.dev" target="_blank">
           <img src="/vite.svg" className="logo" alt="Vite logo" />
