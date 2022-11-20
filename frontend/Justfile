@@ -1,0 +1,11 @@
+set dotenv-load := true
+export PATH := "./node_modules/.bin:" + env_var('PATH')
+
+help:
+    @just --list --unsorted
+
+run:
+    npm run dev
+
+check:
+    tsc --noEmit

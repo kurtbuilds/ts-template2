@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "sourceMap": true,
+    "target": "esnext",
+    "module": "esnext",
+    "declaration": true,
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "outDir": "dist",
+    "strict": true,
+    "noEmit": true,
+    "jsx": "react-jsx",
+    "paths": {
+      "lib": ["@kurtbuilds/lib"]
+    },
+    "allowSyntheticDefaultImports": true
+  },
+  "include": [
+    "*.ts",
+    "**/*.ts",
+  ],
+  "exclude": [
+    "node_modules",
+    "**/__tests__/*"
+  ]
+}
