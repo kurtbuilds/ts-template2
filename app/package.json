@@ -8,7 +8,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "lib2": "file:../lib2",
+    "@bs/lib": "file:../lib2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
