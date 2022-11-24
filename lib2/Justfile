@@ -1,0 +1,18 @@
+set dotenv-load := true
+export PATH := "./node_modules/.bin:" + env_var('PATH')
+
+install:
+    pnpm install
+
+help:
+    @just --list --unsorted
+
+check:
+    tsc --noEmit
+
+build:
+    tsc
+    relrewrite .
+
+watch:
+    watchexec -i dist -e ts,tsx -v -- just build

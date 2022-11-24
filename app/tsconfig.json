@@ -22,8 +22,9 @@
     "noEmit": true,
     "jsx": "react-jsx",
     "paths": {
-      "@kurtbuilds/lib": ["@kurtbuilds/lib"],
-      "@kurtbuilds/lib/*": ["@kurtbuilds/lib/*"]
+      "lib2": [
+        "lib2"
+      ],
     }
   },
   "include": [

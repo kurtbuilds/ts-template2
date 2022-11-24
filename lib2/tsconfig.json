@@ -1,0 +1,28 @@
+{
+  "compilerOptions": {
+    "sourceMap": true,
+    "target": "esnext",
+    "module": "esnext",
+    "declaration": true,
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "esModuleInterop": false,
+    "strict": true,
+    "jsx": "react-jsx",
+    "paths": {
+      "@": ["./"],
+      "@/*": ["./*"]
+    },
+    "allowSyntheticDefaultImports": true
+  },
+  "include": [
+    "*.ts",
+    "*.tsx",
+    "**/*.ts",
+    "**/*.tsx",
+  ],
+  "exclude": [
+    "node_modules",
+    "**/__tests__/*"
+  ]
+}
