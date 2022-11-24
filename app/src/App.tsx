@@ -1,5 +1,5 @@
-import {classNames} from "lib2"
-import {Alerts} from "lib2/component"
+import {Alerts} from "lib2/component/alert"
+import {classNames} from "lib2/util"
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import './App.css'
