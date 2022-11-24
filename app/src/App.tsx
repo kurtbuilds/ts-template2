@@ -1,13 +1,12 @@
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import './App.css'
-import {classNames} from "@kurtbuilds/lib"
-import {Loading} from "@kurtbuilds/lib/component/loading"
-import {Alerts} from "@kurtbuilds/lib/component/alert"
+import {Alerts} from "@kurtbuilds/lib/component/alerts"
+
 
 function App() {
   const [count, setCount] = useState(0)
-
+  
   return (
     <div className={classNames("App", "red")}>
         <Loading/>

@@ -8,7 +8,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@kurtbuilds/lib": "link:../@kurtbuilds/lib",
+    "@kurtbuilds/lib": "file:/Users/kurt/work/lib-ts",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
