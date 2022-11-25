@@ -5,7 +5,8 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "postinstall": "rm node_modules/@bs/lib && ln -s /Users/kurt/work/lib-ts node_modules/@bs/lib"
   },
   "dependencies": {
     "@bs/lib": "file:../../lib-ts",
