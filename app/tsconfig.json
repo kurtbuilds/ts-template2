@@ -9,6 +9,7 @@
     ],
     "allowJs": false,
     "skipLibCheck": true,
+    "preserveSymlinks": true,
     "esModuleInterop": false,
     "allowSyntheticDefaultImports": true,
     "strict": true,
@@ -22,8 +23,8 @@
     "noEmit": true,
     "jsx": "react-jsx",
     "paths": {
-      "lib2": [
-        "lib2"
+      "@bs/lib": [
+        "@bs/lib"
       ],
     }
   },

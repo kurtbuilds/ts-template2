@@ -1,5 +1,5 @@
-import {Alerts} from "@bs/lib/component"
 import {classNames} from "@bs/lib"
+import {Alerts} from "@bs/lib/component/alert"
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import './App.css'
