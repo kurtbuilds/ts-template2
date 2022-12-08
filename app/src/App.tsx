@@ -2,6 +2,11 @@ import {classNames} from "@bs/lib"
 import { useState } from 'react'
 import {Alerts} from "@bs/lib/component"
 import reactLogo from './assets/react.svg'
+import {getCookie} from "@bs/lib"
+
+function has_user(): boolean {
+    return !!getCookie("sid")
+}
 
 export function App() {
   const [count, setCount] = useState(0)
