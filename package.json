@@ -1,7 +1,0 @@
-{
-  "name": "ts-template2",
-  "workspaces": [
-    "@kurtbuilds/lib",
-    "frontend"
-  ]
-}
