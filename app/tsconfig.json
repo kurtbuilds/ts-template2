@@ -14,9 +14,8 @@
     "allowSyntheticDefaultImports": true,
     "strict": true,
     "forceConsistentCasingInFileNames": true,
-    "baseUrl": "src",
-    "rootDir": "src",
     "module": "ESNext",
+    "baseUrl": ".",
     "moduleResolution": "Node",
     "resolveJsonModule": true,
     "isolatedModules": true,
@@ -26,9 +25,18 @@
       "@bs/lib": [
         "@bs/lib"
       ],
+      "src": [
+        "./src"
+      ],
+      "src/*": [
+        "./src/*"
+      ]
     }
   },
   "include": [
-    "src"
+    "./src/*.ts",
+    "./src/*.tsx",
+    "./src/**/*.ts",
+    "./src/**/*.tsx",
   ]
 }

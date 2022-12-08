@@ -2,8 +2,6 @@ import {classNames} from "@bs/lib"
 import { useState } from 'react'
 import {Alerts} from "@bs/lib/component"
 import reactLogo from './assets/react.svg'
-import './App.css'
-
 
 export function App() {
   const [count, setCount] = useState(0)
